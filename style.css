@@ -1,0 +1,79 @@
+
+.menu{
+   display: flex;
+	flex-direction: row;
+	padding: 24px;
+   margin-bottom: 24px;
+   background-color: orange;
+   justify-content: space-around;
+   align-items: center;
+   height: 70px;
+}
+
+.logo{
+   display: flex;
+	padding: 24px;
+   height: 100px;
+}
+
+.nav-menu{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap:20px;
+}
+
+.titulo{
+   color: aqua;
+}
+
+main{
+   width:1120px;
+   background-color: rgb(85, 0, 255);
+   display:flex;
+   flex-direction: column;
+   align-items:center;
+   justify-content:space-around;
+   width: 100%;
+}
+
+
+.apresentacao{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content:right;
+}
+
+.vendas{
+   display: flex;
+   align-items:flex-end;
+   justify-content:flex-end;
+   flex-direction: row;
+}
+ 
+.item{
+   display: flex;
+   flex-direction: column;
+   padding: 24px;
+}
+
+.desc{
+   margin-top: 10px;
+   display: flex;
+   color: black;
+   justify-content: center;
+}
+
+.img_h{
+   width: 350px;
+   height: 200px;
+}
+
+footer {
+   box-shadow: 0px -1px 0px 0px #ececec;
+   padding: 50px;
+   text-align: center;
+}
+
+
