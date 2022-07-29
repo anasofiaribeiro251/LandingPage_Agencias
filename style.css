@@ -1,0 +1,88 @@
+main{
+    width:1120px;
+    background-color: rgb(175, 197, 239);
+}
+
+header{ 
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    padding: 5px 20 px;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background-color: rgb(175, 197, 239);
+    box-shadow: 0 1px o #ececec;
+    max-width:2000px;
+    width: 100%;
+ }
+
+ .logo img{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+ }
+
+ .nav-menu{
+    display: flex;
+    gap:20px;
+ }
+ a{
+    cursor:pointer;
+    text-decoration:none;/*  testar outros */
+    color: rgb(85, 0, 255);
+ }
+
+.titulo{
+   display: contents;
+}
+
+main{ 
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    position:relative;
+    top: 0;
+    z-index: 999;
+    background-color: rgb(175, 197, 239);
+    max-width:1800px;
+    width: 100%;
+ }
+
+ .apresentacao{
+    display: flex;
+    align-items: center;
+    justify-content:right;
+ }
+
+ .vendas{
+    width: 20%;
+    /* display: flex; */
+     align-items:flex-end;
+    justify-content:flex-end;
+    flex-direction: row;
+ }
+ 
+ .img_1 img{
+    width: 20%; 
+ }
+
+ .img_2 img{
+    width: 20%; 
+ }
+
+ .img_3 img{
+    width: 20%; 
+ }
+
+
+ footer {
+    box-shadow: 0px -1px 0px 0px #ececec;
+    padding: 50px;
+    text-align: center;
+  }
+
+
